@@ -1,17 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM, { render } from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import App from './App';
+import * as serviceWorker from './serviceWorker';
+//import Test from './Test';
+// import HelloComponent from './component/HelloComponent';
+import Login from './login/Login';
+import BlogPost from "./component/container/BlogPost/BlogPost";
+
+// const HelloComponent=()=>{
+//   return HelloComponent
+// }
+
+// class StateFullComponent extends React.Component{
+//   render(){
+//     return <p>StateFullComponent</p>
+//   }
+// }
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BlogPost />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('content')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+serviceWorker.unregister();
