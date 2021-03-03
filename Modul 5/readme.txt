@@ -1,1 +1,0 @@
-Naufal fidyan ramadhan
