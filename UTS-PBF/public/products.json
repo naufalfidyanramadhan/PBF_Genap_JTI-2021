@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Televisi 1",
+    "price": 1500000,
+    "description": "Televisi kondisi bagus",
+    "image": "tv1.jpg"
+  },
+  {
+    "title": "Televisi 2",
+    "price": 1700000,
+    "description": "Televisi keluaran terbaru",
+    "image": "tv2.jpg"
+  },
+  {
+    "title": "Televisi 3",
+    "price": 1000000,
+    "description": "Televisi spesial promo",
+    "image": "tv3.jpg"
+  },
+  {
+    "title": "Televisi 4",
+    "price": 1750000,
+    "description": "Televisi limited edition",
+    "image": "tv4.jpg"
+  },
+  {
+    "title": "Televisi 5",
+    "price": 1100000,
+    "description": "Televisi keluaran lama tetapi paling laris",
+    "image": "tv5.jpg"
+  },
+  {
+    "title": "Televisi 6",
+    "price": 1000000,
+    "description": "Televisi spesial promo akhir tahun",
+    "image": "tv6.jpg"
+  }
+]
