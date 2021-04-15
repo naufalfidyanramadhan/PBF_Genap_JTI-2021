@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Artikel 1",
+      "body": "Pemrograman Berbasis Framework"
+    },
+    {
+      "userId": 1,
+      "id": 1618514736726,
+      "title": "Artikel 2",
+      "body": "lorem imsum "
+    },
+    {
+      "userId": 1,
+      "id": 1618514749745,
+      "title": "Artikel 3",
+      "body": "lorem imsum dolor"
+    }
+  ]
+}
